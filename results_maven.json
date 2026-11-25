@@ -1,0 +1,231 @@
+{
+  "opportunities": 8800,
+  "agents": 30,
+  "stages": {
+    "Engaging": 1589,
+    "Prospecting": 500,
+    "Won": 4238,
+    "Lost": 2473
+  },
+  "flags_by_rule": {
+    "M5_unknown_product": 1480,
+    "M8_stale_engaging": 1479,
+    "M6_missing_or_unknown_account": 1088
+  },
+  "opportunities_flagged": 2793,
+  "unknown_product_names": [
+    [
+      "GTXPro",
+      1480
+    ]
+  ],
+  "sector_values": [
+    [
+      "employment",
+      4
+    ],
+    [
+      "entertainment",
+      6
+    ],
+    [
+      "finance",
+      8
+    ],
+    [
+      "marketing",
+      8
+    ],
+    [
+      "medical",
+      12
+    ],
+    [
+      "retail",
+      17
+    ],
+    [
+      "services",
+      5
+    ],
+    [
+      "software",
+      7
+    ],
+    [
+      "technolgy",
+      12
+    ],
+    [
+      "telecommunications",
+      6
+    ]
+  ],
+  "last_date_in_export": "2017-12-31",
+  "top_agents_by_stale_engaging": [
+    [
+      "Celia Rouche",
+      "Vicki Laflamme",
+      104,
+      98
+    ],
+    [
+      "Summer Sewald",
+      "Kary Hendrixson",
+      103,
+      91
+    ],
+    [
+      "Melvin Marxen",
+      "Darcel Schlecht",
+      83,
+      83
+    ],
+    [
+      "Summer Sewald",
+      "Kami Bicknell",
+      90,
+      80
+    ],
+    [
+      "Rocco Neubert",
+      "Cassey Cress",
+      85,
+      79
+    ]
+  ],
+  "sample_flags_for_manual_check": [
+    [
+      "M6_missing_or_unknown_account",
+      "04T6SOQW",
+      "Kami Bicknell",
+      "GTX Basic",
+      null,
+      "Engaging",
+      "2017-08-06",
+      null,
+      null
+    ],
+    [
+      "M8_stale_engaging",
+      "0OESOJNN",
+      "James Ascencio",
+      "GTX Plus Basic",
+      "Warephase",
+      "Engaging",
+      "2017-01-17",
+      null,
+      null
+    ],
+    [
+      "M8_stale_engaging",
+      "WEKW3XIN",
+      "Cassey Cress",
+      "GTX Plus Pro",
+      "Condax",
+      "Engaging",
+      "2017-06-20",
+      null,
+      null
+    ],
+    [
+      "M8_stale_engaging",
+      "CYV6MJL9",
+      "Hayden Neloms",
+      "MG Advanced",
+      null,
+      "Engaging",
+      "2017-08-14",
+      null,
+      null
+    ],
+    [
+      "M5_unknown_product",
+      "CUV49MUR",
+      "Violet Mclelland",
+      "GTXPro",
+      "Zathunicon",
+      "Engaging",
+      "2017-06-02",
+      null,
+      null
+    ],
+    [
+      "M6_missing_or_unknown_account",
+      "OTLQMB5X",
+      "Rosalina Dieter",
+      "GTX Basic",
+      null,
+      "Engaging",
+      "2017-04-30",
+      null,
+      null
+    ],
+    [
+      "M8_stale_engaging",
+      "QMFN71BT",
+      "Darcel Schlecht",
+      "GTX Plus Basic",
+      null,
+      "Engaging",
+      "2017-08-13",
+      null,
+      null
+    ],
+    [
+      "M6_missing_or_unknown_account",
+      "1D54L027",
+      "Wilburn Farren",
+      "MG Advanced",
+      null,
+      "Engaging",
+      "2017-01-25",
+      null,
+      null
+    ],
+    [
+      "M6_missing_or_unknown_account",
+      "WV2YBM8V",
+      "Kary Hendrixson",
+      "GTX Basic",
+      null,
+      "Engaging",
+      "2017-09-30",
+      null,
+      null
+    ],
+    [
+      "M6_missing_or_unknown_account",
+      "71GQNH5T",
+      "Cassey Cress",
+      "MG Advanced",
+      null,
+      "Engaging",
+      "2017-03-05",
+      null,
+      null
+    ],
+    [
+      "M8_stale_engaging",
+      "5X3TSUA9",
+      "Cassey Cress",
+      "GTX Plus Basic",
+      null,
+      "Engaging",
+      "2017-09-13",
+      null,
+      null
+    ],
+    [
+      "M8_stale_engaging",
+      "GG85QBTM",
+      "Elease Gluck",
+      "GTK 500",
+      "Lexiqvolax",
+      "Engaging",
+      "2017-06-10",
+      null,
+      null
+    ]
+  ]
+}

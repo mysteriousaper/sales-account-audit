@@ -1,0 +1,12 @@
+{
+  "rows": {
+    "accounts": 1000000,
+    "activities": 2909963,
+    "contacts": 2490557
+  },
+  "rule_breaks_found": 984241,
+  "seconds_to_build_data": 1.4,
+  "seconds_six_rules": 0.9,
+  "seconds_scorecard_window_query": 0.03,
+  "threads": 4
+}

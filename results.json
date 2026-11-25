@@ -1,0 +1,177 @@
+{
+  "dataset": {
+    "accounts": 5110,
+    "contacts": 14467,
+    "activities": 15616,
+    "reps": 12,
+    "registry_rows": 4233
+  },
+  "rules_overall": {
+    "flagged": 1165,
+    "seeded": 1165,
+    "correct": 1165,
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "rules_by_rule": {
+    "R1_min_touches": {
+      "flagged": 349,
+      "seeded": 349,
+      "correct": 349,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "R2_decision_maker": {
+      "flagged": 110,
+      "seeded": 110,
+      "correct": 110,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "R3_next_step": {
+      "flagged": 333,
+      "seeded": 333,
+      "correct": 333,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "R4_demo_meeting": {
+      "flagged": 71,
+      "seeded": 71,
+      "correct": 71,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "R5_dq_reason": {
+      "flagged": 94,
+      "seeded": 94,
+      "correct": 94,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "R6_owner_mismatch": {
+      "flagged": 208,
+      "seeded": 208,
+      "correct": 208,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  "accounts_failing": 1015,
+  "accounts_audited": 4308,
+  "dup_contacts": {
+    "flagged": 355,
+    "seeded": 311,
+    "correct": 311,
+    "precision": 0.8761,
+    "recall": 1.0
+  },
+  "dup_contacts_auto_merge": {
+    "flagged": 311,
+    "seeded": 311,
+    "correct": 311,
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "dup_contacts_sent_to_review": 44,
+  "dup_accounts": {
+    "flagged": 110,
+    "seeded": 110,
+    "correct": 110,
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "dup_accounts_cross_rep": 110,
+  "enrichment": {
+    "accounts_missing_phone": 400,
+    "phones_filled_from_registry": 355,
+    "accounts_matched_to_license": 4326,
+    "open_accounts_with_expired_license": 285
+  },
+  "rep_scorecard": [
+    {
+      "rep": "R08",
+      "audited": 359,
+      "failing": 204,
+      "fail_pct": 56.8,
+      "most_common_issue": "R1_min_touches"
+    },
+    {
+      "rep": "R10",
+      "audited": 347,
+      "failing": 195,
+      "fail_pct": 56.2,
+      "most_common_issue": "R3_next_step"
+    },
+    {
+      "rep": "R11",
+      "audited": 340,
+      "failing": 141,
+      "fail_pct": 41.5,
+      "most_common_issue": "R3_next_step"
+    },
+    {
+      "rep": "R03",
+      "audited": 322,
+      "failing": 76,
+      "fail_pct": 23.6,
+      "most_common_issue": "R1_min_touches"
+    },
+    {
+      "rep": "R06",
+      "audited": 393,
+      "failing": 75,
+      "fail_pct": 19.1,
+      "most_common_issue": "R1_min_touches"
+    },
+    {
+      "rep": "R05",
+      "audited": 398,
+      "failing": 75,
+      "fail_pct": 18.8,
+      "most_common_issue": "R3_next_step"
+    },
+    {
+      "rep": "R04",
+      "audited": 347,
+      "failing": 50,
+      "fail_pct": 14.4,
+      "most_common_issue": "R1_min_touches"
+    },
+    {
+      "rep": "R01",
+      "audited": 367,
+      "failing": 48,
+      "fail_pct": 13.1,
+      "most_common_issue": "R1_min_touches"
+    },
+    {
+      "rep": "R09",
+      "audited": 352,
+      "failing": 40,
+      "fail_pct": 11.4,
+      "most_common_issue": "R1_min_touches"
+    },
+    {
+      "rep": "R07",
+      "audited": 344,
+      "failing": 38,
+      "fail_pct": 11.0,
+      "most_common_issue": "R1_min_touches"
+    },
+    {
+      "rep": "R12",
+      "audited": 388,
+      "failing": 41,
+      "fail_pct": 10.6,
+      "most_common_issue": "R1_min_touches"
+    },
+    {
+      "rep": "R02",
+      "audited": 351,
+      "failing": 32,
+      "fail_pct": 9.1,
+      "most_common_issue": "R1_min_touches"
+    }
+  ]
+}
